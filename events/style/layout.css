@@ -1,0 +1,281 @@
+/**********
+ * File:    layout.css - Style sheet layout for AYA pages
+ * Version: 3.30
+ * Date:    2018-03-19
+ * Author:  Martin Baranski, TroubleZone.Net Productions
+ * Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+ *          (see: https://creativecommons.org/licenses/by-sa/4.0/ for details)
+ **********/
+
+/***
+ * Bootstrap overrides - START
+ ***/
+address {
+  margin-bottom: 0 !important;
+}
+
+.bootstrap-select > .dropdown-toggle > .filter-option {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.btn-group.bootstrap-select > .btn.dropdown-toggle.btn-default {
+  border-color: #A89F70;
+  color: #574900;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  background-color: #A89F70;
+  color: #574900;
+}
+.dropdown-menu > .active > a {
+  background-color: #D5B900 !important;
+}
+
+.col-md-5ths {
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .col-md-5ths {
+    float: left;
+    width: 20%;
+  }
+}
+
+.form-control {
+  border-color: #A89F70;
+  color: #574900;
+}
+.form-control:focus {
+  border-color: #D5B900;
+  box-shadow: 0 0 8px rgba(213, 185, 0, 0.6);
+}
+
+.form-inline {
+  white-space: nowrap;
+}
+
+.input-group.bootstrap-touchspin {
+  margin-right: 30px;
+}
+
+.aya-input-group > .input-group-addon {
+  width: 0%;
+}
+
+.glyphicon.glyphicon-asterisk.form-control-feedback {
+  border-radius: 4px !important;
+  color: #BAAD51;
+}
+
+.list-group-item > .row {
+  position: relative;
+  white-space: nowrap;
+}
+.list-group-item > .row > .col-md-5,
+.list-group-item > .row > .col-md-7 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-group-item > .row > .col-md-5 {
+  color: #FFFFFF;
+}
+.list-group-item > .row > .col-md-5 > .label {
+  background-color: #D5B900;
+}
+
+/*
+.navbar-brand {
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}*/
+.navbar-brand > img {
+  margin-top: -1px;
+  max-height: 20px;
+  /*max-width: 270px;*/
+}
+
+.progress {
+  position: relative;
+}
+.progress > .progress-bar > span {
+  color: #574900;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.thumbnail {
+  border-color: #F0E696 !important;
+  min-height: 360px;
+}
+.thumbnail.archived {
+  opacity: 0.65;
+}
+.thumbnail > .caption {
+  position: relative;
+  white-space: nowrap;
+}
+.thumbnail > .caption > .address {
+  margin-bottom: 5px;
+}
+.thumbnail > .caption > .address > address,
+.thumbnail > .caption > h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.thumbnail > .caption > h3 {
+  margin-top: 10px;
+}
+/***
+ * Bootstrap overrides - END
+ ***/
+
+@keyframes heartbeat {
+   20% { font-size: .9em; }
+   30% { font-size: .8em; }
+   40% { font-size:  1em; }
+}
+
+body {
+  padding-right: 0 !important;
+  padding-top: 70px;
+}
+
+legend {
+  border-color: #A89F70;
+  color: #574900;
+}
+legend > div:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+legend > .progress > .progress-bar {
+  color: #574900 !important;
+}
+
+span[class$="-label"] {
+  text-align: left;
+}
+
+#location-map {
+  height: 400px;
+  width: 100%;
+}
+
+#aya-vehicle-menu {
+  margin-top: 8px;
+}
+
+#post-vehicle {
+  font-style: italic;
+}
+
+#vehicle-editor-inputs,
+.aya-alert-ajax {
+  display: none;
+  margin-bottom: 0;
+}
+
+.aya-label {
+  background-color: #A89F70;
+  border-color: #A89F70;
+  color: #574900;
+  text-align: left;
+}
+.aya-label-attendee {
+  min-width: 100px;
+}
+.aya-label-event {
+  min-width: 163px;
+}
+.aya-label-components {
+  min-width: 160px;
+}
+.aya-label-vehicle {
+  min-width: 113px;
+}
+
+.aya-input-attendee {
+  min-width: 179px;
+}
+
+.aya-input-group {
+  border-collapse: separate;
+  display: inline-table;
+  position: relative;
+  vertical-align: middle;
+}
+.aya-input-vehicle {
+  min-width: 176px;
+}
+
+.aya-monospace {
+  font-family: monospace !important;
+}
+
+.badge-attendee-counter {
+  background-color: #574900;
+}
+
+.btn-aya {
+  background-color: #BAAD51;
+  color: #574900;
+}
+.btn-aya-default {
+  border-color: #574900;
+  color: #574900;
+}
+.btn-aya-default.active {
+  background-color: #BAAD51 !important;
+}
+.btn-aya-toggle {
+  border-radius: 0;
+}
+
+.footer > p > span[title="blood"] {
+  color: #C11B17;
+}
+.footer > p > span[title="love"] {
+  animation: heartbeat 2s infinite alternate;
+  color: #E41B17;
+}
+.footer > p > span[title="sweat"] {
+  color: #1589FF;
+}
+
+.panel-aya {
+  border-color: #F0E696;
+}
+.panel-aya > .panel-heading {
+  background-color: #D5B900;
+  background-image: url("images/panel-header-watermark-notes.png"), url("images/panel-header-watermark-logo.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 50% 100%, 263px 20px;
+  border-color: #F0E696;
+  color: #574900;
+}
+.panel-aya > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #F0E696;
+}
+/*.panel-aya > .panel-heading .badge {
+  background-color: #574900;
+  color: #F0E696;
+}*/
+.panel-aya > .panel-body.panel-scrollable,
+.panel-aya > .panel-body.panel-scrollable-xl {
+  overflow-y: scroll;
+}
+.panel-aya > .panel-body.panel-scrollable {
+  max-height: 300px;
+}
+.panel-aya > .panel-body.panel-scrollable-xl {
+  max-height: 600px;
+}
+.panel-aya > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #F0E696;
+}
