@@ -1,12 +1,21 @@
 <?php
-/**********
+/*
+ * Copyright 2016-2018 Martin Baranski, TroubleZone.Net Productions
+ *
+ * Licensed under the EUPL, Version 1.2 only (the "Licence");
+ * You may not use this work except in compliance with the Licence.
+ * You may obtain a copy of the Licence at:
+ *
+ * https://joinup.ec.europa.eu/software/page/eupl
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the Licence for the specific language governing permissions and limitations under the Licence.
+ *
  * File:    get-attendances.php - get attendances of AYA event detail pages
  * Version: 2.5
  * Date:    2018-01-05
- * Author:  Martin Baranski, TroubleZone.Net Productions
- * Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
- *          (see: https://creativecommons.org/licenses/by-sa/4.0/ for details)
- **********/
+ */
 
 error_reporting(E_ALL);
 ini_set('display_errors', TRUE);
