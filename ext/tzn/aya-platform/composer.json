@@ -2,9 +2,9 @@
   "name": "tzn/aya-platform",
   "type": "phpbb-extension",
   "description": "AYA-Platform",
-  "homepage": "https://www.troublezone.net/",
+  "homepage": "https://github.com/Eagle3386/aya-platform",
   "version": "3.0.0",
-  "license": "CC-BY-SA-4.0",
+  "license": "EUPL-1.2",
   "authors": [
     {
       "name": "Martin Baranski, TroubleZone.Net Productions",
