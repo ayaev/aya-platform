@@ -15,7 +15,6 @@
  * File:    db-connection.php - database connection configuration
  * Version: 3.0
  * Date:    2017-12-25
- *
  */
 
 try
