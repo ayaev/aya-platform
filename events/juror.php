@@ -39,7 +39,7 @@ try
   $event = $db->prepare('SELECT EventID, Name, Date
                          FROM aya_events
                          WHERE Deleted = FALSE
-                           AND DATEDIFF(Date, CURDATE()) < 1
+                           AND DATEDIFF(Date, CURDATE()) < 7
                          ORDER BY Date DESC
                          LIMIT 1');
   $event->execute();
@@ -91,7 +91,7 @@ try
                               ON A.EventID = E.EventID
                             WHERE A.Deleted = FALSE
                               AND A.EventID = :id
-                              AND DATEDIFF(E.Date, CURDATE()) < 1
+                              AND DATEDIFF(E.Date, CURDATE()) < 7
                             ORDER BY C.SortKey ASC, U.pf_vor_nachname_ ASC, U.pf_vorname ASC");
   $vehicles->bindValue(':id', $ayaEvent['EventID'], PDO::PARAM_STR);
   $vehicles->execute();

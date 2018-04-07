@@ -36,7 +36,7 @@ echo '<div id="aya-flaw-editor-dialog" class="modal fade" role="dialog" tabindex
 try
 {
   $vehicle = $db->prepare("SELECT CONCAT(P.pf_vor_nachname_, ', ', P.pf_vorname) AS RealName, C.Name AS ClassName, V.VehicleID, V.RegistrationNumber,
-                           V.InstallFlaws, CONCAT(M.Name, ' ', V.Model) AS VehicleName
+                           V.InstallFlaws, V.Components, CONCAT(M.Name, ' ', V.Model) AS VehicleName
                            FROM aya_vehicles V
                            JOIN phpbb_profile_fields_data P
                              ON V.phpBBUserID = P.user_id
@@ -95,7 +95,18 @@ echo '<div class="input-group">
                 </fieldset>
                 <br />
                 <fieldset>
-                  <legend>Einbaumängel</legend>
+                  <legend>Informationen</legend>
+                  <div class="form-inline">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <span class="input-group-addon aya-label aya-label-components">Komponenten</span>
+                        <textarea id="flaw-editor-components" class="form-control" rows="5" disabled="disabled">
+                            ' . (empty($ayaVehicle['Components']) ? '' : $ayaVehicle['Components']) . '
+                        </textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
                   <div class="form-inline">
                     <div class="form-group">
                       <div class="input-group">
