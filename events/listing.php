@@ -76,7 +76,7 @@ try
             <address>' . $event["Address"] . '</address>
             ' . ((!empty($ayaUserLocation) && $showDistance) ? 'Entfernung: <span class="distance"></span>' : '') . '
           </div>
-          <button class="attendance btn btn-aya"' . ($isFinished ? ' disabled="disabled"' : '') . ' data-event-id="'
+          <button class="attendance btn btn-aya"' . ($isFinished || ($phpBBUserID < 2) ? ' disabled="disabled"' : '') . ' data-event-id="'
             . $event["EventID"] . '" type="button">' . ($isFinished ? 'Abgeschlossen' : 'Teilnehmen') . '</button>
           ' . (empty($event["HostUrl"]) ? '' : '<a class="btn btn-aya-default" href="//' . $event["HostUrl"]
             . '/" rel="external" role="button" target="_blank">Veranstalter <span class="glyphicon glyphicon-new-window"></span></a>') . '
