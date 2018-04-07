@@ -35,7 +35,7 @@ echo '<nav class="navbar navbar-default navbar-fixed-top">
 
 if ($showListingLink)
 {
-  echo '<a class="btn btn-aya-default navbar-btn" href="/events/listing.php" role="button">
+  echo '<a class="btn btn-aya-default navbar-btn" href="./listing.php" role="button">
   <span class="glyphicon glyphicon-chevron-left"></span> Alle Wettbewerbe
 </a>';
 }
@@ -57,20 +57,20 @@ echo '<div id="aya-vehicle-menu" class="btn-group" role="group">
     </li>
   </ul>
 </div>
-<a class="btn btn-aya-default navbar-btn" href="/events/ranking.php" role="button">
+<!--<a class="btn btn-aya-default navbar-btn" href="./ranking.php" role="button">
   <span class="glyphicon glyphicon-king"></span> Rangliste
-</a>';
+</a>-->';
 
 if ($isJuror)
 {
-  echo '<a class="btn btn-aya-default navbar-btn" href="/events/juror.php" role="button">
+  echo '<a class="btn btn-aya-default navbar-btn" href="./juror.php" role="button">
   <span class="glyphicon glyphicon-list-alt"></span> Jurorenbereich
 </a>';
 }
 
 if ($isAdmin)
 {
-  echo '<a class="btn btn-aya-default navbar-btn" href="/events/admin.php" role="button">
+  echo '<a class="btn btn-aya-default navbar-btn" href="./admin.php" role="button">
   <span class="glyphicon glyphicon-wrench"></span> Administration
 </a>';
 }
