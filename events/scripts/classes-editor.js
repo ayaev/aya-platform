@@ -10,10 +10,6 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and limitations under the Licence.
- *
- * File:    class-editor.js - functions for AYA admin class editor
- * Version: 1.3
- * Date:    2018-01-30
  */
 
 var displayName = 'Klasse';

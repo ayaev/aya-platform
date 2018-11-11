@@ -10,10 +10,6 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and limitations under the Licence.
- *
- * File:    admin.js - jQuery functions for the AYA administration pages
- * Version: 2.18
- * Date:    2018-02-25
  */
 
 $(document).ready(function() {

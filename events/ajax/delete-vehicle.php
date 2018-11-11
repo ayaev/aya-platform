@@ -11,10 +11,6 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and limitations under the Licence.
- *
- * File:    delete-vehicle.php - delete vehicles of AYA event detail pages
- * Version: 3.1
- * Date:    2017-12-22
  */
 
 require_once('../db-initialization.php');

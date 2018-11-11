@@ -10,10 +10,6 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and limitations under the Licence.
- *
- * File:    location-distance.js - JavaScript functions for the distance calculations of AYA pages
- * Version: 1.6
- * Date:    2017-06-11
  */
 
 // shortDistanceResult must be set inside HTML/PHP file which includes this file

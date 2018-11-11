@@ -11,10 +11,6 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and limitations under the Licence.
- *
- * File:    admin.php - AYA admin page
- * Version: 4.14
- * Date:    2018-03-18
  */
 
 require_once('db-initialization.php');

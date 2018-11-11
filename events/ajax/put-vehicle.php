@@ -11,10 +11,6 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and limitations under the Licence.
- *
- * File:    put-vehicle.php - update vehicle for AYA event
- * Version: 2.7
- * Date:    2018-01-05
  */
 
 require_once('../db-initialization.php');

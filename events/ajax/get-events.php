@@ -11,10 +11,6 @@
  * Unless required by applicable law or agreed to in writing, software distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and limitations under the Licence.
- *
- * File:    get-events.php - events query service for AJAX requests of AYA pages
- * Version: 1.5
- * Date:    2018-02-25
  */
 
 header('Content-type: application/json');
