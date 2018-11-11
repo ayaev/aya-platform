@@ -1,6 +1,6 @@
-<?php
+﻿<?php
 /*
- * Copyright 2016-2018 Martin Baranski, TroubleZone.Net Productions
+ * Copyright 2016-2018 Martin Arndt, TroubleZone.Net Productions
  *
  * Licensed under the EUPL, Version 1.2 only (the "Licence");
  * You may not use this work except in compliance with the Licence.
@@ -20,7 +20,7 @@
 <div id="fragment-modal"></div>
 <footer class="footer">
   <p class="text-muted text-center">
-    Made with <span title="blood">💧&#xFE0E;</span>, <span title="sweat">💦&#xFE0E;</span> & <span title="love">💗&#xFE0E;</span> 2016-<?=date('y');?> for AYA e. V. by <a href="//www.troublezone.net/">Martin Baranski</a>.
+    Made with <span title="blood">💧&#xFE0E;</span>, <span title="sweat">💦&#xFE0E;</span> & <span title="love">💗&#xFE0E;</span> 2016-<?=date('y');?> for AYA e. V. by <a href="//www.troublezone.net/">Martin Arndt</a>.
   </p>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

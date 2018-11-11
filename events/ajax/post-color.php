@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2016-2018 Martin Baranski, TroubleZone.Net Productions
+ * Copyright 2016-2018 Martin Arndt, TroubleZone.Net Productions
  *
  * Licensed under the EUPL, Version 1.2 only (the "Licence");
  * You may not use this work except in compliance with the Licence.
@@ -23,7 +23,7 @@ if (!$isAdmin)
 {
   die('Only administrators beyond this point! Sorry.');
 }
-  
+
 try
 {
   $check = $db->prepare('SELECT COUNT(*)

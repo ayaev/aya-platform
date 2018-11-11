@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2016-2018 Martin Baranski, TroubleZone.Net Productions
+ * Copyright 2016-2018 Martin Arndt, TroubleZone.Net Productions
  *
  * Licensed under the EUPL, Version 1.2 only (the "Licence");
  * You may not use this work except in compliance with the Licence.
@@ -50,8 +50,8 @@ catch (PDOException $exception)
 //$export = PHPExcel_IOFactory::load('../export/Attendances.xlsx');
 $export = new PHPExcel();
 $export->getProperties()
-         ->setCreator("Martin Baranski / TroubleZone.Net Productions for AYA e. V.")
-         ->setLastModifiedBy("Martin Baranski / TroubleZone.Net Productions")
+         ->setCreator("Martin Arndt / TroubleZone.Net Productions for AYA e. V.")
+         ->setLastModifiedBy("Martin Arndt / TroubleZone.Net Productions")
          ->setTitle("Teilnehmerliste für " . $ayaEvent['Name'] . " am " . $ayaEvent['Date'])
          ->setSubject("Teilnehmerliste für " . $ayaEvent['Name'])
          ->setDescription("AYA-Teilnehmerliste für " . $ayaEvent['Name'])
