@@ -145,6 +145,10 @@ function loadedCallback() {
   vehicleSelector.selectpicker()
     .on('loaded.bs.select', function(event, clickedIndex, newValue, oldValue) {
       var that = $(this);
+      if(that[0].dataset.initialVehicle == 0) {
+        mode = 'post';
+        saveButton.text(createLabel);
+      };
       that.selectpicker('val', that[0].dataset.initialVehicle);
       enableDeleteOnNonDefaults(that);
     }).on('changed.bs.select', function(event, clickedIndex, newValue, oldValue) {
